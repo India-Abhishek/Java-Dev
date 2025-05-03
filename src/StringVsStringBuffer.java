@@ -3,11 +3,11 @@ public class StringVsStringBuffer {
 
         System.out.println("Abhishek");
 
-        String str = "Hello";
-        System.out.println(str);
+        String str5 = "Hello";
+        System.out.println(str5);
 
-        str = str + " World";
-        System.out.println(str);
+        str5 = str5 + " World";
+        System.out.println(str5);
 
         // String buffer is thread safe because it provide synchronization - append, insert and modify the charaters.
         StringBuffer str2 = new StringBuffer( "Aman"); // creating a string buffer its lenght is 16 + lenght of given string
