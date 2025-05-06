@@ -18,14 +18,21 @@ class Details{
     private int CardNo = 1234; // private is accessiable throuth its own method -- not accessable outide of the class 
     private String Bank = "SBI";
 
-    public void getCardDetails(){
-        System.out.println(CardNo+" : "+Bank);
+    public int getCardNo() {
+        return CardNo;
+    }
+    public void setCardNo(int CardNo) {
+        //CardNo = CardNo;                 Local variable and instance variable can't have same name.
+        this.CardNo =CardNo; // this is a keyword which represent the current object.
+    }
+    public String getBank() {
+        return Bank;
+    }
+    public void setBank(String bank) {
+        Bank = bank;
     }
 
-    public void setCardDetails(int a, String b){
-        CardNo = a;
-        Bank = b;
-    }
+    
 
 }
 
@@ -39,8 +46,10 @@ public class Encapsulation {
  // it will be not accessable beacuse the variable is private and only accessable witthin the class
 
         // To access the data of private variable of other class - can be access throuth the method of that class.
-        d.setCardDetails(8346, "Axis");
-        d.getCardDetails();
+        d.setCardNo(8346);
+        d.getCardNo();
+        d.setBank("Axis");
+        d.getBank()
 
 
         
