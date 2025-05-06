@@ -8,7 +8,7 @@ class calc{ // create a class
     }
 
     public static void staticMethod(){
-        System.out.println("in static method "+s); //we can not use non static variable in static method!!!
+        System.out.println("in static method "+c); //we can not use non static variable in static method!!!
     }
 }
 
