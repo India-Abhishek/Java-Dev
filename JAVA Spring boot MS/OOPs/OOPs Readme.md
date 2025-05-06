@@ -2,7 +2,8 @@ OOPs - object oriented programming
 
 Object - everything around us is and object - pen, laptop, chair
             object have properties Ex - pen have color, body..
-            object have behavior - we can write with the pen (Every object does something)
+            object have behavior - we can write with the pen
+            (Every object does something)
 
             create an object
 
