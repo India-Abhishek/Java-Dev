@@ -17,5 +17,8 @@ Class - to create an object, we need to create a class
         WE create a class file >> this class file get compiled to crrate a byte code>> byte code goes to the JVM and creates an object.
         Class consist of blocks, constructor, variables, methods, inner classes and inner interfaces.
 
+Encapsulation - 
+        private variable is only access witthin the class.
+
 
 

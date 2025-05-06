@@ -1,4 +1,4 @@
-class calc{ // create a class
+class Calc{                     // create a class
     static String s = "Done";
     int c;
 
@@ -7,18 +7,26 @@ class calc{ // create a class
         return c;
     }
 
+    static{
+        System.out.println("Load static class");
+    }
+
     public static void staticMethod(){
-        System.out.println("in static method "+c); //we can not use non static variable in static method!!!
+        System.out.println("in static method "+s); //we can not use non static variable in static method!!!
     }
 }
 
 public class Object {
-    public static void main(String[] args) {
-        calc c = new calc(); // create an object with help of new keyword
-        int result = c.add(3,6); //calling method of an object
-        System.out.println(result);
+    public static void main(String[] args) throws ClassNotFoundException {
 
-        calc.staticMethod();
+        Class.forName("Calc");      // fforName is used to load a class in JVM
+                                            // it will not create an object, it just initiate it.
+
+        // Calc c = new Calc(); // create an object with help of new keyword
+        // int result = c.add(3,6); //calling method of an object
+        // System.out.println(result);
+
+        // Calc.staticMethod();
     }
     
 }
