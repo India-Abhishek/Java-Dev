@@ -1,8 +1,9 @@
 /*
-Encapsulation = Technique to protect an object’s data from unauthorized access and modification by using private fields and
- providing public getter and setter methods. 
- 
- It allows data hiding and ensures that data is only accessed or modified in a controlled manner.
+hiding the data from others by making the variable private and only way to access it is - with the help of methods is called encapsulation in oops
+binding our data with the methods.
+
+Encapsulation = Technique to protect an object’s data from unauthorized access and 
+modification by using private fields and providing public getter and setter methods. 
 
 >>why encapsulation
 
