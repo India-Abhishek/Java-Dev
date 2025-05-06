@@ -1,10 +1,14 @@
 class calc{ // create a class
+    static String s = "Done";
+    int c;
+
     public int add(int a, int b){
-        return a+b;
+        c = a+b;
+        return c;
     }
 
     public static void staticMethod(){
-        System.out.println("in static method");
+        System.out.println("in static method "+s); //we can not use non static variable in static method!!!
     }
 }
 
