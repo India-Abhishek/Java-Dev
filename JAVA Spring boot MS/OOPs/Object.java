@@ -2,6 +2,10 @@ class calc{ // create a class
     public int add(int a, int b){
         return a+b;
     }
+
+    public static void staticMethod(){
+        System.out.println("in static method");
+    }
 }
 
 public class Object {
@@ -9,6 +13,8 @@ public class Object {
         calc c = new calc(); // create an object with help of new keyword
         int result = c.add(3,6); //calling method of an object
         System.out.println(result);
+
+        calc.staticMethod();
     }
     
 }
