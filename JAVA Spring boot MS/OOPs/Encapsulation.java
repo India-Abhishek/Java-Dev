@@ -49,7 +49,7 @@ public class Encapsulation {
         d.setCardNo(8346);
         d.getCardNo();
         d.setBank("Axis");
-        d.getBank()
+        d.getBank();
 
 
         

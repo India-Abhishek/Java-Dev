@@ -1,3 +1,5 @@
+// Object always created in Heap memory.
+
 class Calc{                     // create a class
     static String s = "Done";
     int c;

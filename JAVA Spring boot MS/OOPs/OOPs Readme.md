@@ -11,6 +11,13 @@ Object - everything around us is and object - pen, laptop, chair
 
             i.e.
             Calculator calc = new Calculator();
+>> Anonyomous Object 
+                new calc(); called anonyomous object because it dont have a name.
+        
+        >>WE CANT USE anonyomous object AGAIN.
+
+                //reference object
+                Calc c; it have the ref. of the object.
 
 Class - to create an object, we need to create a class
         A blue print to create an object in java = JVM creates an objects in java.

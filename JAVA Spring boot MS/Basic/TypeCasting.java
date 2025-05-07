@@ -4,6 +4,8 @@ public class TypeCasting {
         int a = 257;
         byte b = (byte)a; // type conversion
 
+        System.out.println(b);
+
         float c = 5.6f;
         int d = (int)c; // while conversion from float to int java lost the value after the point.
         System.out.println(d);
