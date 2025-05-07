@@ -1,4 +1,6 @@
-public class Math {
+package Calculator;
+
+public class Math1 {
     public int add(int a, int b){
         return a+b;
     }

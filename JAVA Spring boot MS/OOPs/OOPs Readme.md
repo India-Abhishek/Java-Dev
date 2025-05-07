@@ -27,5 +27,9 @@ Class - to create an object, we need to create a class
 Encapsulation - 
         private variable is only access witthin the class.
 
+Package: Storing files in folders is called packages
+
+polymorphism - same object can have diffrent behaviour is called polymorphism.
+
 
 

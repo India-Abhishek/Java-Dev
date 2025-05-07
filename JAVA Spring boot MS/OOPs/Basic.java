@@ -1,3 +1,5 @@
+import Calculator.Math1;
+
 class Calcalutaor{                      //creatting a class
     public int add(int num1, int num2){                 // Method to perform 
         System.out.println("number has been added");

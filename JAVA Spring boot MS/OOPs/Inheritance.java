@@ -1,10 +1,13 @@
 
 // Multiple inheritance not work in java
 
+import Calculator.AdvMath;
+import Calculator.Math1;
+import Calculator.VeryAdvCal;
 
 public class Inheritance {
     public static void main(String[] args) {
-        Math c = new Math();
+        Math1 c = new Math1();
         int add = c.add(5,10);
         int sub = c.sub(10, 7);
 
