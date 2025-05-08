@@ -32,4 +32,11 @@ Package: Storing files in folders is called packages
 polymorphism - same object can have diffrent behaviour is called polymorphism.
 
 
+Inheritance -  a clas inherite behaviour of other class called inheritance.
+        // class inherate class = use extends
+        // interface inherate interface = use extend
+        // class implymenting an interface = use implements
+
+
+
 

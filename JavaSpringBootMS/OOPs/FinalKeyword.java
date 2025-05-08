@@ -28,6 +28,7 @@ public class FinalKeyword {
     public static void main(String[] args) {
         final int a = 10;
         //a = 10; can not be cahanged once it initilized with final keyword - thats make the variable constant.
+        System.out.println(a);
         
         B obj = new B();
         /*
