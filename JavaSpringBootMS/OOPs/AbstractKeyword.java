@@ -10,7 +10,7 @@ abstract class Car{
     }
 }
 
-class Swift extends Car{
+class Swift extends Car{    //Concrete class
     public void drive(){
         System.out.println("Driving...");
     }
@@ -22,7 +22,7 @@ class Swift extends Car{
 
 public class AbstractKeyword {
     public static void main(String[] args) {
-        Car obj = new Swift();    // can't create a object of a abstract class 
+        Car obj = new Swift();    // can't create a object of a abstract class but we can create a object of concrete class
         obj.drive(); 
         obj.playMusic();   
     }
