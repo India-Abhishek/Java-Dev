@@ -1,4 +1,4 @@
-//package JavaSpringBootMS.AdvanceJava.Interface;
+package JavaSpringBootMS.AdvanceJava.Interface;
 
 abstract class Computer{
     public abstract void Code();
