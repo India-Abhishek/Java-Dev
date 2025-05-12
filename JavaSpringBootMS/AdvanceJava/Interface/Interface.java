@@ -1,8 +1,8 @@
 package JavaSpringBootMS.AdvanceJava.Interface;
 
 /*
- * Interface is like a class but by defult all the cariable and methods are public abstract
- * All the variable inside the interface are by defult final and static
+ * Interface is like a class but - by default all the variable and methods are public abstract.
+ * All the variable inside the interface are by defult final and static.
  * Inheritance is also valid in interface
  */
 
