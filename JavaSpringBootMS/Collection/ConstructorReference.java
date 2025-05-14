@@ -56,6 +56,7 @@ public class ConstructorReference {
                         //taking a name of type stream and creating a new object with that name
                         .map(n -> new Students(n))
                         .toList();
+        System.out.println(student);
 // Constructor reference
 
         student2 = names.stream()
@@ -63,7 +64,7 @@ public class ConstructorReference {
                         .map(Students::new) //
                         .toList();
 
-        System.out.println(student);
+        System.out.println(student2);
 
     }
     
