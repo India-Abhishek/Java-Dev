@@ -54,7 +54,7 @@ public class Solution {
         // Integer.parseInt() = converts a string representation of a number into an integer
         int n = Integer.parseInt(scanner.nextLine()); 
 
-        // Read asset names
+        // Read Asset names
         // split use for divide a string ino array
         String[] assetNames = scanner.nextLine().split(" "); 
 

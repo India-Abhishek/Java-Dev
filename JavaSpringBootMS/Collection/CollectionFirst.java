@@ -26,7 +26,7 @@ System.out.println("------Collection List------");
         a.add(7);
         a.add(6);
 
-        // frtch the values from collection array list one by one.
+        // fetch the values from collection array list one by one.
         for (int b : a){
             System.out.println(b);
         }
