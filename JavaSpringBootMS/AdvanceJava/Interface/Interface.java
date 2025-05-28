@@ -2,7 +2,7 @@ package JavaSpringBootMS.AdvanceJava.Interface;
 
 /*
  * Interface is like a class but - by default all the variable and methods are public abstract.
- * All the variable inside the interface are by defult final and static.
+ * All the variable inside the interface are by default final and static.
  * Inheritance is also valid in interface
  */
 
@@ -24,7 +24,7 @@ interface A3 extends A2{
 }
 
 // a class can implement one or more interfaces
-// what ever method we have defined in interface we have to initiate in our class.
+// whatever method we have defined in interface we have to initiate in our class.
 class B implements A,A3 {
     public void show(){
         System.out.println("Show method");
