@@ -1,2 +1,1 @@
-# Java-Dev
-Java Spring boot Microservices
+Java, Spring, Spring Boot, Microservices, Maven, JDBC, Hibernate, REST API
