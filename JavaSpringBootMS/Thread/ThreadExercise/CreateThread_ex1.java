@@ -26,7 +26,7 @@ public class CreateThread_ex1 {
         });
 
         objThread2.start();
-//3. creating the thread with runnable interface
+//3. creating the thread with runnable interface.
 
         Runnable runnable = new Runnable() {
             @Override
