@@ -5,6 +5,8 @@ class Student
     static String School; // using static keyword to make the variable common to all object. 
         // A common variable that used all object
 
+        //if its updated then it will be shared with all the object.
+
     public void show(){
         System.out.println(roll + " : " + name + " : " + School);
     }
@@ -26,7 +28,7 @@ public class StaticKeyword {
         Student st3 = new Student();
         st3.roll = 3;
         st3.name = "Anand";
-        st3.School = "SU";
+        st3.School = "Amity";
 
         st1.show();
         st2.show();

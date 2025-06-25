@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-// when we initialize a collection we need to give typ3 in angular bracket.
+// when we initialize a collection we need to give type in angular bracket.
 // by default collection API works with object.
 // mention the type of genrics to privent the Bug/run time execption
 //

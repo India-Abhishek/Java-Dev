@@ -31,7 +31,7 @@ System.out.println("---------Stream----------");
 
         // it will not effect on the existing array list if we do any operation on stream.
 
-        // if we use stream once we cant use it again.
+        // if we used stream once we can not use it again.
         s2.forEach(n -> System.out.println(n));
         //s1.forEach(n -> System.out.println(n));
 

@@ -20,7 +20,7 @@ public class CollectionSet {
     public static void main(String[] args) {
 
 System.out.println("---------Hash Set--------");
-        //Set implemets clooection but class whcih implements set is diff.- HashSet
+        //Set implemets collection but class whcih implements set is diff.- HashSet
         Set<Integer> se = new HashSet<Integer>();
 
         //add values in set

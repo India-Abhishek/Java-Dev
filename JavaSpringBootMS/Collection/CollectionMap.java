@@ -7,7 +7,7 @@
  * values stored in LIST
  * 
  * Hashtable and hashset are same where as hashtable is synchronized
- * if we have multiple thread working = bwttwer to use hash table
+ * if we have multiple thread working = Better to use hash table
  */
 
 package JavaSpringBootMS.Collection;
