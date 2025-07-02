@@ -9,6 +9,7 @@ public class StringConcepts {
         // concatinate means adding two strings
         System.out.println(str + " Bro");
         System.out.println(str.concat(" Kumar"));
+        System.out.println(str); 
 
         System.out.println(str.length()-1); // give the lenght of the string.
 

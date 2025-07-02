@@ -25,6 +25,7 @@ System.out.println("------Collection List------");
         a.add(9);
         a.add(7);
         a.add(6);
+        a.add(8);
 
         // fetch the values from collection array list one by one.
         for (int b : a){

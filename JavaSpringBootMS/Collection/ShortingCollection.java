@@ -1,6 +1,6 @@
 package JavaSpringBootMS.Collection;
 
-// Collection method has  a sorting method
+// Collection method has a sorting method
 // collection class belongs to java.util package
 // collection workes with wrapper
 

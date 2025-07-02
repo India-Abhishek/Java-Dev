@@ -1,7 +1,7 @@
 /*-----HASH SET-----
  * collection of unique value.
  * Set supports unique values
- * --not follows the squence/shorted format.
+ * --not follows the squence/sorted format.
  * --  it dosen't have index value.
  * 
  * ----Tree SET-----
@@ -35,7 +35,7 @@ System.out.println("---------Hash Set--------");
             System.out.println(a);
         }
 //---Tree Set---
-//use for shorted values.
+//use for sorted values.
 
 System.out.println("---------Tree Set--------");
 
